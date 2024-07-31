@@ -1,0 +1,10 @@
+version: '1'
+
+services:
+  petalsapi:
+    image: petals-api
+    ports:
+      - 5000:5000
+    environment:
+      INITIAL_PEERS:
+      HUGGING_FACE_HUB_TOKEN:

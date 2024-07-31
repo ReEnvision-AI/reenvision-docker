@@ -1,7 +1,10 @@
 # Build the ReEnvision Docker Image
 
 ## Git Clone
-
+```
+git@github.com:ReEnvision-AI/reenvision-docker.git
+cd reenvision-docker/node-red-docker/docker-custom
+```
 
 ## Run Build Script
 

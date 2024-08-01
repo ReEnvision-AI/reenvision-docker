@@ -8,3 +8,12 @@ services:
     environment:
       INITIAL_PEERS:
       HUGGING_FACE_HUB_TOKEN:
+  nodered:
+    image: testing:node-red-build
+    ports:
+      - 1880:1880
+    volumes:
+      - node_red_data:/data
+volumes:
+  node_red_data:
+
